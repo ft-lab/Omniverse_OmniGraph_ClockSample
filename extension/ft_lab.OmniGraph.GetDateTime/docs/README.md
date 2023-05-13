@@ -1,4 +1,4 @@
-# OmniGraph sample node [ft_lab.OmniGraph.GetDateTime]
+# GetDateTime [ft_lab.OmniGraph.GetDateTime]
 
 This sample uses OmniGraph to reflect the current time on analog and digital clocks created as 3D models.     
 
