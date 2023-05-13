@@ -29,7 +29,7 @@ Used in analog clock rotation.
 
 ### Inputs
 
-* Default RotationXYZ : Default rotation value (float3)
+* Default RotateXYZ : Default rotation value (float3)
 * Rotation Axis : Rotation axis (0:X, 1:Y, 2:Z)
 * Hour (int)
 * Minute (int)
