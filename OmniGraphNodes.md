@@ -3,6 +3,10 @@
 This extension consists of three custom nodes.    
 ![OmniGraphNodes.png](./images/OmniGraphNodes.png)     
 
+Three nodes are added to "Examples" as Graph.     
+These are nodes that act as Push Graphs.    
+![GetDateTime_nodes.png](./images/GetDateTime_nodes.png)     
+
 ## Get DateTime
 
 Get the current local date and time.     
