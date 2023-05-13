@@ -27,7 +27,7 @@ changelog="docs/CHANGELOG.md"
 
 # Preview image and icon. Folder named "data" automatically goes in git lfs (see .gitattributes file).
 # Preview image is shown in "Overview" of Extensions window. Screenshot of an extension might be a good preview image.
-preview_image = "data/preview.png"
+preview_image = "data/preview.jpg"
 
 # Icon is shown in Extensions window, it is recommended to be square, of size 256x256.
 icon = "data/icon.png"

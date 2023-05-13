@@ -1,12 +1,12 @@
-# OmniGraph sample node [ft_lab.OmniGraph.GetDateTime]
-
-This sample uses OmniGraph to reflect the current time on analog and digital clocks created as 3D models.     
+# Description of OmniGraph nodes
 
 This extension consists of three custom nodes.    
+![OmniGraphNodes.png](./images/OmniGraphNodes.png)     
 
 ## Get DateTime
 
 Get the current local date and time.     
+![Node_GetDateTime.png](./images/Node_GetDateTime.png)     
 
 ### Output
 
@@ -21,6 +21,7 @@ Get the current local date and time.
 
 Given an hour, minute, and second, returns the XYZ of each rotation(degree).     
 Used in analog clock rotation.     
+![Node_RotationByTime.png](./images/Node_RotationByTime.png)     
 
 ### Input
 
@@ -40,6 +41,7 @@ Used in analog clock rotation.
 
 This node controls a virtual 7-segment LED LCD screen.      
 Show/Hide the Prim specified in Input to display the digital clock.     
+![Node_TimeOutputToLCD.png](./images/Node_TimeOutputToLCD.png)     
 
 ### Input
 
