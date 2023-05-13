@@ -1,0 +1,81 @@
+{
+    "OutputToLCD": {
+        "version": 1,
+        "categories": "examples",
+        "description": "Time output to LCD (hh:mm).",
+        "language": "Python",
+        "metadata": {
+            "uiName": "Time output to LCD (hh:mm)"
+        },
+        "inputs": {
+            "a1_hourNum10Prim": {
+                "type": "token",
+                "description": "HourNum10 Prim",
+                "metadata": {
+                    "uiName": "Tenth digit of the hour Prim"
+                }
+            },
+            "a2_hourNum1Prim": {
+                "type": "token",
+                "description": "HourNum1 Prim",
+                "metadata": {
+                    "uiName": "First digit of the hour Prim"
+                }
+            },
+            "b1_minuteNum10Prim": {
+                "type": "token",
+                "description": "MinuteNum10 Prim",
+                "metadata": {
+                    "uiName": "Tenth digit of the minute Prim"
+                }
+            },
+            "b2_minuteNum1Prim": {
+                "type": "token",
+                "description": "MinuteNum1 Prim",
+                "metadata": {
+                    "uiName": "First digit of the minute Prim"
+                }
+            },
+            "c1_amPrim": {
+                "type": "token",
+                "description": "AM Prim",
+                "metadata": {
+                    "uiName": "AM Prim"
+                }
+            },
+            "c2_pmPrim": {
+                "type": "token",
+                "description": "PM Prim",
+                "metadata": {
+                    "uiName": "PM Prim"
+                }
+            },
+            "d1_hour": {
+                "type": "int",
+                "description": "Hour",
+                "default": 0,
+                "metadata": {
+                    "uiName": "Hour"
+                }
+            },
+            "d2_minute": {
+                "type": "int",
+                "description": "Minute",
+                "default": 0,
+                "metadata": {
+                    "uiName": "Minute"
+                }
+            },
+            "d3_second": {
+                "type": "int",
+                "description": "Second",
+                "default": 0,
+                "metadata": {
+                    "uiName": "Second"
+                }
+            }
+        },
+        "outputs": {
+        }
+    }
+}

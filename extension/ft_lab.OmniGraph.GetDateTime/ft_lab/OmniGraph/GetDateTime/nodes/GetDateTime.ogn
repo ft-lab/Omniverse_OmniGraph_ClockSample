@@ -1,0 +1,63 @@
+{
+    "GetDateTime": {
+        "version": 1,
+        "categories": "examples",
+        "description": "Get datetime node.",
+        "language": "Python",
+        "metadata": {
+            "uiName": "Get DateTime"
+        },
+        "inputs": {
+        },
+        "outputs": {
+            "a1_year": {
+                "type": "int",
+                "description": "year",
+                "default": 2000,
+                "metadata": {
+                    "uiName": "Year"
+                }
+            },
+            "a2_month": {
+                "type": "int",
+                "description": "month",
+                "default": 1,
+                "metadata": {
+                    "uiName": "Month"
+                }
+            },
+            "a3_day": {
+                "type": "int",
+                "description": "day",
+                "default": 1,
+                "metadata": {
+                    "uiName": "Day"
+                }
+            },
+            "b1_hour": {
+                "type": "int",
+                "description": "hour",
+                "default": 1,
+                "metadata": {
+                    "uiName": "Hour"
+                }
+            },
+            "b2_minute": {
+                "type": "int",
+                "description": "minute",
+                "default": 1,
+                "metadata": {
+                    "uiName": "Minute"
+                }
+            },
+            "b3_second": {
+                "type": "int",
+                "description": "second",
+                "default": 1,
+                "metadata": {
+                    "uiName": "Second"
+                }
+            }
+        }
+    }
+}
