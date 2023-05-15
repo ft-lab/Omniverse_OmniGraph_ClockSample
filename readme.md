@@ -42,4 +42,5 @@ You can now see the current time reflected in the analog and digital clocks.
 
 ## Documents for Development
 
-Not yet created.     
+* [Extension Structure](./docs/ExtensionStructure.md)
+
