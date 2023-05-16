@@ -102,7 +102,7 @@ In "data/icons", icons used in nodes are stored as SVG files.
 These icons are used in the node graph in Omniverse Create at the following locations.    
 ![node_svg.jpg](./images/node_svg.jpg)      
 
-I created the svg file in Affinity Desigier( https://affinity.serif.com/ ).    
+I created the svg file in Affinity Designer( https://affinity.serif.com/ ).    
 
 ## Nodes
 
@@ -111,7 +111,7 @@ Please also see "[Description of OmniGraph nodes](../OmniGraphNodes.md)" for nod
 
 |Node name|Description|    
 |---|---|     
-|GetDateTime|Get the current local date and time.|     
-|RotationByTime|Given an hour, minute, and second, returns the XYZ of each rotation(degree).|     
-|OutputToLCD|This node controls a virtual 7-segment LED LCD screen.|     
+|[GetDateTime](./node_GetDateTime.md)|Get the current local date and time.|     
+|[RotationByTime](./node_RotationByTime.md)|Given an hour, minute, and second, returns the XYZ of each rotation(degree).|     
+|[OutputToLCD](./node_OutputToLCD.md)|This node controls a virtual 7-segment LED LCD screen.|     
 
