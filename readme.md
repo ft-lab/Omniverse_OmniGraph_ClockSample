@@ -43,5 +43,8 @@ You can now see the current time reflected in the analog and digital clocks.
 ## Documents for Development
 
 * [Extension Structure](./docs/ExtensionStructure.md)
+  * [GetDateTime](./docs/node_GetDateTime.md)
+  * [RotationByTime](./docs/node_RotationByTime.md)
+  * [OutputToLCD](./docs/node_OutputToLCD.md)
 * [3D Model](./docs/Modeling3D.md)
 

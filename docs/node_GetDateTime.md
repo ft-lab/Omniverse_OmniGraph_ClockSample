@@ -490,7 +490,7 @@ The register method is a canned statement.
 
 ### deregister method
 
-The deregister method specifies "[Extension name]/[class name of this node]".      
+The deregister method specifies "[Extension name].[class name of this node]".      
 
 ```python
     @staticmethod
