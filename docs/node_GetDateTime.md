@@ -70,6 +70,7 @@ Get the current local date and time.
     }
 }
 ```
+![GetDateTime_node.png](./images/GetDateTime_node.png)     
 
 No inputs is provided, as it only outputs the current time.     
 Outputs date and time in int type.     

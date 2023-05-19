@@ -18,7 +18,7 @@
             },
             "a2_rotationAxis": {
                 "type": "int",
-                "description": "Rotation axis (0:X, 0:Y, 0:Z)",
+                "description": "Rotation axis (0:X, 1:Y, 2:Z)",
                 "default": 0,
                 "metadata": {
                     "uiName": "Rotation axis"

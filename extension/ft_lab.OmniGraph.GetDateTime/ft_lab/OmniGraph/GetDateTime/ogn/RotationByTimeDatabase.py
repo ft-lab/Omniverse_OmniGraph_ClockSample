@@ -30,7 +30,7 @@ class RotationByTimeDatabase(og.Database):
 
     INTERFACE = og.Database._get_interface([
         ('inputs:a1_defaultRotateXYZ', 'float[3]', 0, 'Default RotateXYZ', 'Default rotateXYZ', {}, True, None, False, ''),
-        ('inputs:a2_rotationAxis', 'int', 0, 'Rotation Axis', 'Rotation axis (0:X, 0:Y, 0:Z)', {}, True, None, False, ''),
+        ('inputs:a2_rotationAxis', 'int', 0, 'Rotation Axis', 'Rotation axis (0:X, 1:Y, 2:Z)', {}, True, None, False, ''),
         ('inputs:b1_hour', 'int', 0, 'Hour', 'Hour', {ogn.MetadataKeys.DEFAULT: '0'}, True, 0, False, ''),
         ('inputs:b2_minute', 'int', 0, 'Minute', 'Minute', {ogn.MetadataKeys.DEFAULT: '0'}, True, 0, False, ''),
         ('inputs:b3_second', 'int', 0, 'Second', 'Second', {ogn.MetadataKeys.DEFAULT: '0'}, True, 0, False, ''),
