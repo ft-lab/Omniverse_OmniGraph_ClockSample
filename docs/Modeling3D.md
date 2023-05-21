@@ -4,9 +4,9 @@ I modeled 3D models of analog and digital clocks in Blender.
 I used the Blender 3.6 alpha USD branch which can be launched from the Omniverse Launcher.     
 This is because I want to export the correct USD from Blender.     
 
-Shapes modeled in Blender were exported in fbx format and textured in Substance 3D Painter.     
+I exported the modeled shapes in Blender in fbx format and textured them in Substance 3D Painter.     
 
-The USD files imported into Omniverse Create were also edited for stage hierarchy.      
+I also imported Blender exported USD files into Omniverse Create to edit the hierarchy and reassign materials.      
 
 ## Clock
 
