@@ -1,4 +1,4 @@
-# 3D model
+# 3D models
 
 I modeled 3D models of analog and digital clocks in Blender.     
 I used the Blender 3.6 alpha USD branch which can be launched from the Omniverse Launcher.     
