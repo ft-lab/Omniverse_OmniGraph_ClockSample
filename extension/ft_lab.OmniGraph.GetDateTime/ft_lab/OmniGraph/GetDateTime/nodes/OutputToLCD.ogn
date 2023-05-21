@@ -10,30 +10,30 @@
         "inputs": {
             "a1_hourNum10Prim": {
                 "type": "token",
-                "description": "HourNum10 Prim",
+                "description": "Tenth digit of the hour Prim",
                 "metadata": {
-                    "uiName": "Tenth digit of the hour Prim"
+                    "uiName": "HourNum10 Prim"
                 }
             },
             "a2_hourNum1Prim": {
                 "type": "token",
-                "description": "HourNum1 Prim",
+                "description": "First digit of the hour Prim",
                 "metadata": {
-                    "uiName": "First digit of the hour Prim"
+                    "uiName": "HourNum1 Prim"
                 }
             },
             "b1_minuteNum10Prim": {
                 "type": "token",
-                "description": "MinuteNum10 Prim",
+                "description": "Tenth digit of the minute Prim",
                 "metadata": {
-                    "uiName": "Tenth digit of the minute Prim"
+                    "uiName": "MinuteNum10 Prim"
                 }
             },
             "b2_minuteNum1Prim": {
                 "type": "token",
-                "description": "MinuteNum1 Prim",
+                "description": "First digit of the minute Prim",
                 "metadata": {
-                    "uiName": "First digit of the minute Prim"
+                    "uiName": "MinuteNum1 Prim"
                 }
             },
             "c1_amPrim": {
