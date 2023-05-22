@@ -48,3 +48,6 @@ You can now see the current time reflected in the analog and digital clocks.
   * [OutputToLCD](./docs/node_OutputToLCD.md)
 * [3D Models](./docs/Modeling3D.md)
 
+## License
+
+This software is released under the MIT License, see [LICENSE.txt](./LICENSE.txt).
