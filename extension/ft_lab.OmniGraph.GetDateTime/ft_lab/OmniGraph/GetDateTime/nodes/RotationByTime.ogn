@@ -9,7 +9,7 @@
         },
         "inputs": {
             "a1_defaultRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Default rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -51,7 +51,7 @@
         },
         "outputs": {
             "a1_hourRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Hour rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -59,7 +59,7 @@
                 }
             },
             "a2_minuteRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Minute rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -67,7 +67,7 @@
                 }
             },
             "a3_secondRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Second rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
