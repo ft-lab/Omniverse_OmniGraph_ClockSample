@@ -25,6 +25,15 @@ class RotationByTimeDatabase(og.Database):
             outputs.a3_secondRotateXYZ
     """
 
+    # Omniverse Create 2022.3.3 (Kit.104)
+    #GENERATOR_VERSION = (1, 17, 2)
+    #TARGET_VERSION = (2, 65, 4)
+
+    # Imprint the generator and target ABI versions in the file for JIT generation
+    # USD Composer 2023.1.0 beta (Kit.105)
+    GENERATOR_VERSION = (1, 31, 1)
+    TARGET_VERSION = (2, 107, 4)
+
     # This is an internal object that provides per-class storage of a per-node data dictionary
     PER_NODE_DATA = {}
 
@@ -209,12 +218,17 @@ class RotationByTimeDatabase(og.Database):
         
         @staticmethod
         def compute(context, node):
+            def database_valid():
+                return True
             try:
                 per_node_data = RotationByTimeDatabase.PER_NODE_DATA[node.node_id()]
                 db = per_node_data.get('_db')
                 if db is None:
                     db = RotationByTimeDatabase(node)
                     per_node_data['_db'] = db
+                if not database_valid():
+                    per_node_data['_db'] = None
+                    return False
             except:
                 db = RotationByTimeDatabase(node)
 
@@ -277,8 +291,6 @@ class RotationByTimeDatabase(og.Database):
             if callable(on_connection_type_resolve_function):
                 on_connection_type_resolve_function(node)
     NODE_TYPE_CLASS = None
-    GENERATOR_VERSION = (1, 17, 2)
-    TARGET_VERSION = (2, 65, 4)
 
     @staticmethod
     def register(node_type_class):
