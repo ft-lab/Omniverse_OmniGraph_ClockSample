@@ -7,7 +7,7 @@ This is a sample project in which OmniGraph custom nodes are prepared with a Pyt
 
 ## How to use
 
-I have confirmed that it works with Omniverse Create 2022.3.3.     
+I have confirmed that it works with ~~Omniverse Create 2022.3.3~~ USD Composer 2023.1.0-beta.     
 Download and use this repository locally.     
 
 ```
@@ -47,6 +47,20 @@ You can now see the current time reflected in the analog and digital clocks.
   * [RotationByTime](./docs/node_RotationByTime.md)
   * [OutputToLCD](./docs/node_OutputToLCD.md)
 * [3D Models](./docs/Modeling3D.md)
+
+## Update History
+
+Fixed in USD Composer 2023.1.0-beta (Kit.105) from Omniverse Create 2022.3.3 (Kit.104).     
+
+
+### [RotationByTime.ogn](extension/ft_lab.OmniGraph.GetDateTime/ft_lab/OmniGraph/GetDateTime/nodes/RotationByTime.ogn)
+
+"type": "float3" -> "float[3]"      
+
+### xxxxDatabase.py
+
+* GENERATOR_VERSION : (1, 17, 2) -> (1, 31, 1)    
+* TARGET_VERSION : (2, 65, 4) -> (2, 107, 4)
 
 ## License
 
