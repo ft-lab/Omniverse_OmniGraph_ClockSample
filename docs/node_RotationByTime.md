@@ -17,7 +17,7 @@ Given an hour, minute, and second, returns the XYZ of each rotation(degree).
         },
         "inputs": {
             "a1_defaultRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Default rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -59,7 +59,7 @@ Given an hour, minute, and second, returns the XYZ of each rotation(degree).
         },
         "outputs": {
             "a1_hourRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Hour rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -67,7 +67,7 @@ Given an hour, minute, and second, returns the XYZ of each rotation(degree).
                 }
             },
             "a2_minuteRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Minute rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -75,7 +75,7 @@ Given an hour, minute, and second, returns the XYZ of each rotation(degree).
                 }
             },
             "a3_secondRotateXYZ": {
-                "type": "float3",
+                "type": "float[3]",
                 "description": "Second rotateXYZ",
                 "default": [0.0, 0.0, 0.0],
                 "metadata": {
@@ -566,8 +566,8 @@ The on_connection_type_resolve method is a canned statement.
 After describing the abi class, add the following line as is.     
 ```python
     NODE_TYPE_CLASS = None
-    GENERATOR_VERSION = (1, 17, 2)
-    TARGET_VERSION = (2, 65, 4)
+    GENERATOR_VERSION = (1, 31, 1)
+    TARGET_VERSION = (2, 107, 4)
 ```
 
 ### register method

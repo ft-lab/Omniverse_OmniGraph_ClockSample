@@ -474,8 +474,8 @@ The on_connection_type_resolve method is a canned statement.
 After describing the abi class, add the following line as is.     
 ```python
     NODE_TYPE_CLASS = None
-    GENERATOR_VERSION = (1, 17, 2)
-    TARGET_VERSION = (2, 65, 4)
+    GENERATOR_VERSION = (1, 31, 1)
+    TARGET_VERSION = (2, 107, 4)
 ```
 
 ### register method
