@@ -32,9 +32,9 @@ class OutputToLCDDatabase(og.Database):
     #TARGET_VERSION = (2, 65, 4)
 
     # Imprint the generator and target ABI versions in the file for JIT generation
-    # USD Composer 2023.1.0 beta (Kit.105)
-    GENERATOR_VERSION = (1, 31, 1)
-    TARGET_VERSION = (2, 107, 4)
+    # USD Composer 2023.2.2 beta (Kit.105.1.2)
+    GENERATOR_VERSION = (1, 41, 3)
+    TARGET_VERSION = (2, 139, 12)
 
     # This is an internal object that provides per-class storage of a per-node data dictionary
     PER_NODE_DATA = {}
@@ -247,7 +247,7 @@ class OutputToLCDDatabase(og.Database):
 
                 # Set Icon(svg).
                 icon_path = carb.tokens.get_tokens_interface().resolve("${ft_lab.OmniGraph.GetDateTime}")
-                icon_path = icon_path + '/' + "data/icons/outputToLCD.svg"
+                icon_path = icon_path + '/' + "data/icons/ft_lab.OmniGraph.GetDateTime.outputToLCD.svg"
                 node_type.set_metadata(ogn.MetadataKeys.ICON_PATH, icon_path)
 
                 OutputToLCDDatabase.INTERFACE.add_to_node_type(node_type)
