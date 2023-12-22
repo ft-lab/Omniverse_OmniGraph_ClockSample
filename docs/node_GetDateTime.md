@@ -473,7 +473,7 @@ The on_connection_type_resolve method is a canned statement.
 
 After describing the abi class, add the following line as is.     
 
-USD Composer 2023.2.2 beta (Kit.105.1.2).      
+USD Composer 2023.2.2 (Kit.105.1.2).      
 ```python
     NODE_TYPE_CLASS = None
     GENERATOR_VERSION = (1, 41, 3)

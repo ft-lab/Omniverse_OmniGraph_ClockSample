@@ -2,7 +2,7 @@
 
 ## December 22, 2023
 
-Fixed in USD Composer 2023.2.2-beta (Kit.105.1.2)
+Fixed in USD Composer 2023.2.2 (Kit.105.1.2)
 
 ### xxxxDatabase.py
 

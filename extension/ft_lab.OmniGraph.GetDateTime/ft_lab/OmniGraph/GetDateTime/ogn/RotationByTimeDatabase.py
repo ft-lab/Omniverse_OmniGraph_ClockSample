@@ -30,7 +30,7 @@ class RotationByTimeDatabase(og.Database):
     #TARGET_VERSION = (2, 65, 4)
 
     # Imprint the generator and target ABI versions in the file for JIT generation
-    # USD Composer 2023.2.2 beta (Kit.105.1.2)
+    # USD Composer 2023.2.2 (Kit.105.1.2)
     GENERATOR_VERSION = (1, 41, 3)
     TARGET_VERSION = (2, 139, 12)
 

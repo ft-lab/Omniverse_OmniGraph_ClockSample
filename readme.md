@@ -7,7 +7,7 @@ This is a sample project in which OmniGraph custom nodes are prepared with a Pyt
 
 ## How to use
 
-I have confirmed that it works with ~~Omniverse Create 2022.3.3~~ USD Composer 2023.2.2-beta(Kit 105.1.2).     
+I have confirmed that it works with ~~Omniverse Create 2022.3.3~~ USD Composer 2023.2.2(Kit 105.1.2).     
 Download and use this repository locally.     
 
 ```
