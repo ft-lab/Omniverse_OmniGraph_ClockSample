@@ -531,7 +531,7 @@ The information is set as metadata by using "node_type.set_metadata".
 |ogn.MetadataKeys.CATEGORIES|Categories name|examples|     
 |ogn.MetadataKeys.DESCRIPTION|Node description|Rotation By Time|     
 |ogn.MetadataKeys.LANGUAGE|language used|Python|     
-|ogn.MetadataKeys.ICON_PATH|Icon path|[Extension Path]/data/icons/rotationByTimeIcon.svg|     
+|ogn.MetadataKeys.ICON_PATH|Icon path|[Extension Path]/data/icons/ft_lab.OmniGraph.GetDateTime.rotationByTimeIcon.svg|     
 
 See below for available category names.     
 
@@ -542,7 +542,7 @@ The icon path is obtained from the Extension path as follows, and then "/data/ic
 
 ```python
 icon_path = carb.tokens.get_tokens_interface().resolve("${ft_lab.OmniGraph.GetDateTime}")
-icon_path = icon_path + '/' + "data/icons/rotationByTimeIcon.svg"
+icon_path = icon_path + '/' + "data/icons/ft_lab.OmniGraph.GetDateTime.rotationByTimeIcon.svg"
 node_type.set_metadata(ogn.MetadataKeys.ICON_PATH, icon_path)
 ```
 
@@ -564,11 +564,16 @@ The on_connection_type_resolve method is a canned statement.
 ### Specify version
 
 After describing the abi class, add the following line as is.     
+
+USD Composer 2023.2.2 beta (Kit.105.1.2).      
 ```python
     NODE_TYPE_CLASS = None
-    GENERATOR_VERSION = (1, 31, 1)
-    TARGET_VERSION = (2, 107, 4)
+    GENERATOR_VERSION = (1, 41, 3)
+    TARGET_VERSION = (2, 139, 12)
 ```
+This seemed to need to be updated when the Kit version was upgraded.     
+Otherwise, problems occurred, such as icons not being displayed.      
+
 
 ### register method
 

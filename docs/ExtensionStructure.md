@@ -94,9 +94,14 @@ In "data/icons", icons used in nodes are stored as SVG files.
 ```
 [data]
   [icons]
-    icon.svg
-    outputToLCD.svg
-    rotationByTimeIcon.svg
+    ft_lab.OmniGraph.GetDateTime.icon.svg
+    ft_lab.OmniGraph.GetDateTime.outputToLCD.svg
+    ft_lab.OmniGraph.GetDateTime.rotationByTimeIcon.svg
+```
+
+Icon names have been standardized with the following designations.     
+```
+[Project name].[Icon name].svg
 ```
 
 These icons are used in the node graph in Omniverse Create at the following locations.    
